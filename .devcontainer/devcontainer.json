@@ -1,0 +1,16 @@
+{
+    "name": "taskbacklog",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "api",
+    "workspaceFolder": "/go/src",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "editor.tabSize": 4,
+        "go.useLanguageServer": true
+    },
+    "extensions": [
+        "golang.go"
+    ]
+}
