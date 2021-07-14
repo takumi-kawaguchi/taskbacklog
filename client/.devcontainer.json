@@ -1,0 +1,12 @@
+{
+    "name": "Client Container",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "client",
+    "shutdownAction": "none",
+    "extensions": [
+        "dbaeumer.vscode-eslint"
+    ],
+    "workspaceFolder": "/workspace/client"
+}
